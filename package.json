@@ -1,0 +1,12 @@
+{
+  "name": "moderation-bot",
+  "version": "v1",
+  "description": "Les bases de la modération avec un bot discord",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "moment": "^2.29.1"
+  },
+  "author": "DoctorPok",
+  "license": "MIT"
+}
