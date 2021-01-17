@@ -19,5 +19,5 @@ module.exports.run = async (client, message) => {
 };
 
 module.exports.help = {
-    name: 'ping'
+    name: "ping"
 };
