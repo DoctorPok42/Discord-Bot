@@ -20,6 +20,10 @@ Puis vous pourrez enfin lancer le bot en fesant cette commande dans votre terina
 node .\main.js
 ```
 <hr>
+<h3>ANTENTTION ! </3>
+
+Si vous utilisez ce script veuiller respecter les crédits qui sont mis dans le ficjier `package.json`
+<hr>
 
 ```Js
 - DoctorPok
