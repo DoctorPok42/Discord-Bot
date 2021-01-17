@@ -1,7 +1,7 @@
 module.exports.run = (client, message, args) => {
-    if (!message.guild.member(message.author).hasPermission('MANAGE_MESSAGES')) { return message.channel.send('Vous n\'avez pas les permissions !'); };
+    if (!message.guild.member(message.author).hasPermission('MANAGE_MESSAGES')) { return message.channel.send('Vous n\'avez pas les permissions !'); }
     if (!args[0]) { return message.channel.send('Vous devez spécifier un nombre de messages à supprimer !'); }
-    else if (isNaN(args[0])) { return message.channel.send('Veuillez spécifier un nombre !'); };
+    else if (isNaN(args[0])) { return message.channel.send('Veuillez spécifier un nombre !'); }
 
         message.channel.bulkDelete(args[0])
             .then((messages) => {
@@ -10,5 +10,5 @@ module.exports.run = (client, message, args) => {
 };
 
 module.exports.help = {
-    name: 'clear',
+    name: 'clear'
 };
