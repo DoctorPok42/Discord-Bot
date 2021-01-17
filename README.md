@@ -9,7 +9,7 @@ Il est écrit en `JavaScript` avec la librairy `discord.js@12.5`
 Le bot va évoluer donc si vous l'aprécier n'hésitez pas à mettre une étoile :star:
 <hr>
 
-Pour pouvoir le lancer le Bot télécharger d'abors le code, puis mofifier les informations du fichier
+Pour pouvoir le lancer le Bot télécharger d'abors le code (`git clone https://github.com/DoctorPok/Moderation-Bot.git`), puis mofifier les informations du fichier
 ```
 config.js
 ``` 
