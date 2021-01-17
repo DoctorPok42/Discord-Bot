@@ -8,5 +8,9 @@
     "moment": "^2.29.1"
   },
   "author": "DoctorPok",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoctorPok42/Moderation-Bot"
+  }
 }
