@@ -22,7 +22,8 @@ node .\main.js
 <hr>
 <h3>ANTENTTION ! </3>
 
-Si vous utilisez ce script veuiller respecter les crédits qui sont mis dans le ficjier `package.json`
+
+Si vous utilisez ce script veuiller respecter les crédits qui sont mis dans le fichier `package.json`
 <hr>
 
 ```Js
