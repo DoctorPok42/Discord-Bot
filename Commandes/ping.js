@@ -14,7 +14,7 @@ module.exports.run = async (client, message) => {
   
     msg.delete();
   
-    message.channel.send(me)
+    message.channel.send(me);
 
 };
 

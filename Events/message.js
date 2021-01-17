@@ -4,10 +4,10 @@ module.exports = (client, message) => {
 
     client.config = config;
 
-    if (message.author.bot || message.channel.type === 'dm') {
+    if (message.author.bot || message.channel.type === "dm") {
         return;
         }
-    if (!message.channel.permissionsFor(client.user).has('SEND_MESSAGES')) {
+    if (!message.channel.permissionsFor(client.user).has("SEND_MESSAGES")) {
         return;
     }
     if (!message.content.startsWith(client.config.prefix)) {
