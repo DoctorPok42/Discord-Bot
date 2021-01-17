@@ -20,7 +20,7 @@ Puis vous pourrez enfin lancer le bot en fesant cette commande dans votre terina
 node .\main.js
 ```
 <hr>
-<h3>ANTENTTION ! </3>
+<strong>ANTENTTION ! </strong>
 
 
 
