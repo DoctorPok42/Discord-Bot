@@ -4,7 +4,7 @@ module.exports.run = (client, message) => {
     if (message.mentions.users.size === 0) { return message.channel.send("Vous devez mentionner un utilisateur !"); }
 
         let kickMember = message.guild.member(message.mentions.users.first());
-        if (!kickMember) { return message.channel.send('Je n\'ai pas trouvé l\"utilisateur !'); }
+        if (!kickMember) { return message.channel.send('Je n\'ai pas trouvé l\'utilisateur !'); }
     
         message.mentions.users.first().send(`Vous êtes kick du serveur **${message.guild.name}** par ${message.author.username}`)
             .then(() => {
