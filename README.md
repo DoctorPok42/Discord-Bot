@@ -1,6 +1,5 @@
-## Modération-Bot
+## Modération-Bot [![CodeFactor](https://www.codefactor.io/repository/github/doctorpok42/moderation-bot/badge/main)](https://www.codefactor.io/repository/github/doctorpok42/moderation-bot/overview/main)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a249f7824be04486ab189f92ff1d4f10)](https://app.codacy.com/gh/DoctorPok42/Moderation-Bot?utm_source=github.com&utm_medium=referral&utm_content=DoctorPok42/Moderation-Bot&utm_campaign=Badge_Grade)
 
 Bienvenue sur ce repo !
 
