@@ -1,4 +1,4 @@
-## Modération-Bot [![CodeFactor](https://www.codefactor.io/repository/github/doctorpok42/moderation-bot/badge/main)](https://www.codefactor.io/repository/github/doctorpok42/moderation-bot/overview/main)
+## Modération-Bot [![CodeFactor](https://www.codefactor.io/repository/github/doctorpok42/discord-bot/badge)](https://www.codefactor.io/repository/github/doctorpok42/discord-bot)
 
 
 Bienvenue sur ce repo !
