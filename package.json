@@ -1,7 +1,7 @@
 {
-  "name": "moderation-bot",
+  "name": "discord-bot",
   "version": "v1",
-  "description": "Les bases de la modération avec un bot discord",
+  "description": "Les bases d'un bot discord",
   "main": "main.js",
   "dependencies": {
     "discord.js": "^12.5.1",
@@ -11,6 +11,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DoctorPok42/Moderation-Bot"
+    "url": "git+https://github.com/DoctorPok42/Discord-Bots"
   }
 }
