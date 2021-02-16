@@ -1,4 +1,4 @@
-const { Client, Collection, Dicord} = require('discord.js'),
+const { Client, Collection} = require('discord.js'),
 client = new Client({ partials: ["MESSAGE", "CHANNEL"]});
 client.commands = new Collection();
 const fs = require('fs');

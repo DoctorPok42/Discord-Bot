@@ -1,7 +1,9 @@
-## Modération-Bot
+## Modération-Bot [![CodeFactor](https://www.codefactor.io/repository/github/doctorpok42/discord-bot/badge)](https://www.codefactor.io/repository/github/doctorpok42/discord-bot)
+
+
 Bienvenue sur ce repo !
 
-Vous trouverez ici le code d'un bot discord acès sur la modération
+Vous trouverez ici le code d'un bot discord
 
 Il est écrit en `JavaScript` avec la librairy `discord.js@12.5`
 

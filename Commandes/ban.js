@@ -1,10 +1,11 @@
 module.exports.run = (client, message) => {
-    if (!message.guild.member(message.author).hasPermission("BAN_MEMBERS")) { return message.channel.send("Vous n\'avez pas la permission !"); }
-    if (!message.guild.member(client.user).hasPermission("BAN_MEMBERS")) { return message.channel.send("Le bot n\'a pas la permission !"); }
+    if (!message.guild.member(message.author).hasPermission("BAN_MEMBERS")) { return message.channel.send('Vous n\'avez pas la permission !'); }
+    if (!message.guild.member(client.user).hasPermission("BAN_MEMBERS")) { return message.channel.send('Le bot n\'a pas la permission !'); }
+    if (!message.guild.member(user).bannable) return message.channel.send('Je ne peut pas bannir cette personne car son rang est inférieur');
     if (message.mentions.users.size === 0) { return message.channel.send("Vous devez mentionner un utilisateur !"); }
 
         let banMember = message.guild.member(message.mentions.users.first());
-        if (!banMember) { return message.channel.send("Je n\'ai pas trouvé l\'utilisateur !"); }
+        if (!banMember) { return message.channel.send('Je n\'ai pas trouvé l\'utilisateur !'); }
     
         message.mentions.users.first().send(`Vous êtes banni du serveur **${message.guild.name}** par ${message.author.username}`)
             .then(() => {
