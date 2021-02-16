@@ -12,7 +12,7 @@ fs.readdir('./Commandes/', (error, f) => {
         let commandes = f.filter(f => f.split('.').pop() === 'js');
         if (commandes.length <= 0) {
             return console.log('Pas de commandes trouvée dans le dossier Commandes')
-        };
+        }
         commandes.forEach((f) => {
             let commande = require(`./Commandes/${f}`);
             console.log(`${f} (commandes) => good`);
@@ -31,7 +31,7 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.on('ready', function(f) {
+client.on('ready', function() {
     console.log(`Bot lancé !\nPrésent sur ${client.guilds.cache.size} serveurs`)
     client.user.setActivity({name: config.activity, type: 'PLAYING'}); //pour avoir la liste de tous les type disponible aller ici https://discord.js.org/?source=post_page#/docs/main/v12/typedef/ActivityType
 })
