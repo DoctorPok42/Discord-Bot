@@ -8,9 +8,8 @@ module.exports.run = (client, message, args) => {
     .setColor(client.color.blue)
     .setTimestamp()
     .setDescription(`**Avatar de ${user}** \n **[.png](${user.displayAvatarURL({ format: "png", size: 512 })}) | [.jpg](${user.displayAvatarURL({ format: "jpg", size: 512 })}) | [.webp](${user.displayAvatarURL({ format: "webp", size: 512})}) | [.gif](${user.displayAvatarURL({ format: "gif", size: 512})})**`)
-    .setImage(user.displayAvatarURL())
+    .setImage(user.displayAvatarURL({dynamic: true}))
     message.channel.send(avatar)
-    console.log(`Demande d'avatar de la par de ${message.author.tag}`)
 }
 
 module.exports.help = {
