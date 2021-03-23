@@ -31,7 +31,7 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.on('ready', => {
+client.on('ready', (client) => {
     console.log(`Bot lancé !\nPrésent sur ${client.guilds.cache.size} serveurs`)
     client.user.setActivity({name: config.activity, type: 'PLAYING'}); //pour avoir la liste de tous les type disponible aller ici https://discord.js.org/?source=post_page#/docs/main/v12/typedef/ActivityType
 })
