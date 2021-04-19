@@ -11,10 +11,9 @@ module.exports.run = async (client, message) => {
     .setColor(client.color.blue)
     .setAuthor(client.user.username, client.user.displayAvatarURL())
     .setTimestamp();
-  
-    msg.delete();
-  
+    
     message.channel.send(me);
+    msg.delete();
 
 };
 
