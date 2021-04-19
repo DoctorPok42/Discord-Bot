@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { MESSAGES } = require("../../util/constants"),
+const { MessageEmbed } = require("discord.js"),
   fetch = require("node-fetch");
 
 module.exports.run = async (client, message, args) => {
