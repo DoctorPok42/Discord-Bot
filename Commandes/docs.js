@@ -1,5 +1,4 @@
 const fetch = require("node-fetch");
-const { MESSAGES } = require("../../util/constants");
 
 module.exports.run = async (client, message, args) => {
   let [query, branch] = args;
