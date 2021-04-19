@@ -1,9 +1,7 @@
-const { MessageEmbed, Discord } = require("discord.js");
-const { MESSAGES } = require("../../util/constants");
-const { Client } = require("blague.xyz");
-const joker = new Client("YOUR API KEY", {
-  defaultLang: "fr", // The default language for jokes and fml
-});
+const { MessageEmbed, Discord } = require("discord.js"),
+        Client = require("blague.xyz"),
+        joker = new Client("YOUR API KEY", { defaultLang: "fr", });
+
 module.exports.run = (client, message, args) => {
   joker.randomJoke().then((joke) => {
     const embed = new MessageEmbed()
